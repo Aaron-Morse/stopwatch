@@ -54,6 +54,7 @@ stopBtn.addEventListener('click', () => {
 });
 
 resetBtn.addEventListener('click', () => {
+    startBtn.disabled = false;
     clearInterval(start);
     ss = 0;
     mm = 0;
